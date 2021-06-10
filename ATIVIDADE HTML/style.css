@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+.corpo{
+    background: rgb(152, 149, 149);
+}
+.musica{
+    height: 394px;
+}
+.linha2{
+    height: 403.5px;
+}
+.card-deck{
+    padding: 15px;
+}
+.card-header{
+    font-family: 'Mate SC', serif;
+    font-size: 30px;
+    margin-top: 15px;
+}
+.card-text{
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    font-size: 23px;
+}
+.navbar-brand.mb-2.mx-auto{
+    font-size: 60px;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 3px;
+}
+.efeito-card{
+    overflow: hidden
+}
+.efeito-card img {
+    max-width:100%;
+    -moz-transition:(all 0.2s);
+    -webkit-transition-all: 0.2s;
+    transition: all 0.2s;
+}
+.efeito-card:hover img{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.card-img-top{
+    margin: auto;
+}
+.list-group-item{
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    border: solid 1px black !important;
+}
+.itens{
+    color: black;
+    font-family: 'Mate SC', serif;
+    font-style: italic;
+    text-decoration: none !important;
+}
+.itens:hover{
+    color: black;
+    font-weight: bolder;
+    font-size: 19px;
+    transition: all 0.2s;
+}
+.fim{
+    color: white;
+    font-family: 'Bangers', cursive;
+    font-size: 40px;
+    letter-spacing: 4px;
+}
+.card-title{
+    font-size: 50px;
+    font-family: 'Staatliches', cursive;
+}
+.comeco{
+    text-align: justify;
+    letter-spacing: 1px;
+    font-size: 30px;
+    margin-top: 20px;
+    border-left: solid 2px black;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+.fas.fa-street-view.fa-9x{
+    margin-left: 70px;
+    padding: 20px;
+    margin-top: 600px;
+}
+.btn.btn-primary{
+    margin-left: 200px;
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 20px;
+    box-shadow: 4px 4px 14px 0px black;
+    border: solid 3px white;
+}
+.btn.btn-primary:hover{
+    background-color: black;
+    border: solid 3px white;
+}
+.efeito-botao-botao {
+    border: none;
+    position: relative;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 400ms ease;
+}
+.efeito-botao-botao:hover{
+    animation: bounce 1s linear;
+}
+@keyframes bounce {
+    20%, 50%, 80%, to{
+        transform: translateY(0);
+} 
+    40%{
+        transform: translateY(-20px)
+    }
+    70%{
+        transform: translateY(-15px);
+    } 
+    90%{
+        transform: translateY(-4px);
+    } 
+}
+.modal-title{
+    font-size: 45px;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 2px;
+    font-weight: bolder;
+}
+.modal-body{
+    font-size: 30px;
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+}
