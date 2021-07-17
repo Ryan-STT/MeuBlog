@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/720267c82f.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <title>Sobre Mim</title>
+</head>
+<body class="corpo">
+
+    <!-- CABEÇALHO -->
+
+    <header>
+    <nav class="navbar navbar-dark bg-dark">
+    <a class="navbar-brand mb-2 mx-auto" href="#">CONHEÇA SOBRE MIM</a>
+    </nav>
+    </header>
+
+    <!--FIM DO CABEÇALHO-->
+
+    <!--CARD-->
+
+    <div class="container">
+        <div class="card mb-3 mt-4">
+            <img class="card-img-top" src="about me.jpg" alt="Sobre Mim">
+            <div class="card-body">
+                <h5 class="card-title text-center mt-3 mb-4">SOBRE MIM</h5>
+                <div class="row">
+                    <div class="col">
+                        <i class="fas fa-street-view fa-9x"></i>
+                    </div>
+                    <div class="col-8">
+
+                        <!-- BOTÃO PARA ABRIR MODAL -->
+
+                        <button type="button" class="btn btn-primary efeito-botao-botao" data-toggle="modal" data-target="#modalExemplo">
+                            CLIQUE AQUI E  VEJA O SEU DESAFIO
+                        </button>
+
+                        <!--FIM DO BOTÃO PARA ABRIR MODAL-->
+  
+                        <!--MODAL-->
+
+                        <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">BEM VINDO!</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                                </div>
+                                <div class="modal-body">
+                                    Acredito que deve estar se perguntando "Quem sou eu?" <br> <br> Bem, na verdade, isso é uma boa pergunta e que com as informações abaixo espero que consiga adivinhar, está aqui seu desafio!
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <p class="card-text comeco">Tenho 18 anos, sou um grande amante da fauna e flora, um dos meus objetivos é poder trabalhar com elas. Além disso, a música é minha vida, sou uma pessoa quase eclética, mas gosto bastante de K-pop, pop e músicas Indies, tenho um grupo de 9 integrantes onde sou líder a 2 anos.</p>
+                        <p class="card-text comeco">Atualmente, faço faculdade de Análise e desenvolvimento de Sistemas na UNINOVE tendo como objetivo me tornar um programador fullStack Web dominando as linguagens de PHP, Java e JavaScript tendo um vasto conhecimento de modelagem de dados me tornando analista e dados, quero muito trabalhar na Oracle para crescer como profissional meu último nível do inglês, faço marketing digital entre outros cursos que terminei.</p>
+                        <p class="card-text comeco">Por fim, minha vida é ser feliz e aproveitar o máximo que ela pode me proporcionar, curtindo cada momento com pessoas importante. Tenho uma cachorra muito amorosa que está comigo a anos e praticamente é isso.                            </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card-deck mt-3">
+            <div class="card efeito-card">
+            <img class="card-img-top" src="Series.jpg" alt="Imagem da NetFlix">
+            <div class="card-header text-center">
+                SERIES          <i class="fas fa-tv"></i>
+            </div>
+            <div class="card-body">
+                <p class="card-text">Não sou uma pessoa que costuma seguir padrões de series, é realmente algo aleatório e que varia com meu humor, mas com certeza se me conhece bem pode identificar </p>
+                <div class="card-footer text-muted">
+                    <ul class="list-group list-group-flush">
+                        <a href="https://www.tecmundo.com.br/minha-serie/lucifer" class="itens"><li class="list-group-item">LUCIFER</li></a>
+                        <a href="https://www.tecmundo.com.br/minha-serie/pretty-little-liars" class="itens"><li class="list-group-item">PRETTY LITTLE LIARS</li></a>
+                        <a href="http://spoilers.tv.br/riverdale/" class="itens"><li class="list-group-item">RIVERDALE</li></a>
+                        <a href="https://www.adorocinema.com/series/serie-22373/" class="itens"><li class="list-group-item">ELITE</li></a>
+                        <a href="https://www.adorocinema.com/series/serie-23415/" class="itens"><li class="list-group-item">FATE A SAGA WINX</li></a>
+                        <a href="https://www.resumoescolar.com.br/cinema-e-series/resumo-la-casa-de-papel-serie-da-netflix/" class="itens"><li class="list-group-item">LA CASA DE PAPEL</li></a>
+                        <a href="https://www.omelete.com.br/netflix/the-witcher-tudo-que-voce-precisa-saber-entenda#3" class="itens"><li class="list-group-item">THE WITCHER</li></a>
+                        <a href="https://www.omelete.com.br/netflix/the-witcher-tudo-que-voce-precisa-saber-entenda#3" class="itens"><li class="list-group-item">THE UMBRELA ACADEMY</li></a>
+                        <a href="https://www.aficionados.com.br/vis-a-vis-resumo-temporadas-personagens/" class="itens"><li class="list-group-item">VIS A VIS</li></a>
+                        <a href="https://www.adorocinema.com/series/serie-28425/" class="itens"><li class="list-group-item">O REINO PERDIDO DOS PIRATAS</li></a>
+                    </ul>
+                </div>
+            </div>
+            </div>
+            <div class="card efeito-card">
+            <img class="card-img-top musica" src="Musica.jpg" alt="Imagem de Musica">
+            <div class="card-header text-center">
+                MÚSICAS          <i class="far fa-play-circle"></i>
+            </div>
+            <div class="card-body">
+                <p class="card-text">Como eu disse acima, eu praticamente vivo de música, ela altera meu humor, é meu motivo e incentivo para fazer as coisas, também não sigo um padrão, mas pelos artistas pode saber </p>
+                <div class="card-footer text-muted">
+                    <ul class="list-group list-group-flush">
+                        <a href="https://www.youtube.com/watch?v=FnGfgb_YNE8" class="itens"><li class="list-group-item">DONA DE MIM</li></a>
+                        <a href="https://www.youtube.com/watch?v=2IkoKhr6Tss" class="itens"><li class="list-group-item">DON´T FIGHT THE FEELING</li></a>
+                        <a href="https://www.youtube.com/watch?v=8cXPoQ5WalM" class="itens"><li class="list-group-item">SHOW & TELL</li></a>
+                        <a href="https://www.youtube.com/watch?v=tcYodQoapMg" class="itens"><li class="list-group-item">POSITION</li></a>
+                        <a href="https://www.youtube.com/watch?v=87VRaM5_bAE" class="itens"><li class="list-group-item">100WAYS</li></a>
+                        <a href="https://www.youtube.com/watch?v=fKopy74weus" class="itens"><li class="list-group-item">THUNDER</li></a>
+                        <a href="https://www.youtube.com/watch?v=MNhMT7ogF-k" class="itens"><li class="list-group-item">HIM</li></a>
+                        <a href="https://www.youtube.com/watch?v=sk-qyR224fU" class="itens"><li class="list-group-item">WANNA BE MY SELF</li></a>
+                        <a href="https://www.youtube.com/watch?v=Edwsf-8F3sI" class="itens"><li class="list-group-item">FEELING GOOD</li></a>
+                        <a href="https://www.youtube.com/watch?v=OSye8OO5TkM" class="itens"><li class="list-group-item">MOVEMENT</li></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+            <div class="card-deck">
+                <div class="card efeito-card">
+                <img class="card-img-top linha2" src="Futuro.jpg" alt="Imagem de Objetivo">
+                <div class="card-header text-center">
+                    PERSONALIDADE          <i class="fab fa-periscope"></i>
+                </div>
+                <div class="card-body">
+                    <p class="card-text">Todas essas personalidades abaixo foram não escolhidas por mim, mas em base do que as pessoas falam, da forma como elas me enxergam no seu dia a dia... Tenho que admitir que estou feliz de causar esses sentimentos....</p>
+                    <div class="card-footer text-muted">
+                        <ul class="list-group list-group-flush">
+                            <a href="https://www.significados.com.br/sinceridade/" class="itens"><li class="list-group-item">Sincero</li></a>
+                            <a href="https://www.idealdisc.com.br/personalidade-cautelosa-a-conformidade-no-ambiente-de-trabalho/" class="itens"><li class="list-group-item">Cauteloso</li></a>
+                            <a href="https://www.gazetadigital.com.br/editorias/opiniao/voce-e-detalhista-ou-objetivo/417878" class="itens"><li class="list-group-item">Detalhista</li></a>
+                            <a href="https://www.significados.com.br/generosidade/" class="itens"><li class="list-group-item">Generoso</li></a>
+                            <a href="https://amenteemaravilhosa.com.br/pessoas-leais-o-valor-de-ser-fiel-aos-seus-principios/" class="itens"><li class="list-group-item">Leal</li></a>
+                            <a href="https://www.rhportal.com.br/artigos-rh/as-quatro-caractersticas-da-pessoa-carismtica/" class="itens"><li class="list-group-item">Carismatico</li></a>
+                            <a href="https://www.significados.com.br/flexivel/" class="itens"><li class="list-group-item">Flexiviel</li></a>
+                            <a href="https://amenteemaravilhosa.com.br/voce-possui-uma-personalidade-criativa/" class="itens"><li class="list-group-item">Criativo</li></a>
+                            <a href="https://neuroconecte.com.br/por-que-ser-uma-pessoa-mais-paciente-e-importante/" class="itens"><li class="list-group-item">Paciente</li></a>
+                            <a href="http://lifestyle.publico.pt/pesomedida/349392_o-misterio-das-pessoas-determinadas-parte-1" class="itens"><li class="list-group-item">Determinado</li></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+                <div class="card efeito-card">
+                    <img class="card-img-top linha2" src="programador.jpg" alt="Imagem de Programador">
+                    <div class="card-header text-center">
+                        CARREIRA          <i class="fas fa-code"></i>
+                    </div>
+                <div class="card-body">
+                    <p class="card-text">Aqui com certeza você irá saber quem sou, estamos no mesmo barco, como diz o instituto proa, então nossos objetivos nessa jornada podem ser semelhantes, repare bem nos detalhes e irá ver uma diferença no caminho. Aqui que finaliza seu teste, já sabe quem sou...?</p>
+                    <div class="card-footer text-muted">
+                        <ul class="list-group list-group-flush">
+                            <a href="https://kenzie.com.br/blog/desenvolvimento-web/" class="itens"><li class="list-group-item">DESENVOLVEDOR WEB</li></a>
+                            <a href="https://www.igti.com.br/blog/o-que-faz-um-desenvolvedor-full-stack/" class="itens"><li class="list-group-item">DESENVOLVEDOR FULLSTACK</li></a>
+                            <a href="https://querobolsa.com.br/carreiras-e-profissoes/dba-administrador-de-banco-de-dados" class="itens"><li class="list-group-item">BANCO DE DADOS</li></a>
+                            <a href="https://rockcontent.com/br/blog/marketing-digital/" class="itens"><li class="list-group-item">MARKETING DIGITAL</li></a>
+                            <a href="https://www.freelancermap.com/blog/pt/o-que-faz-analista-dados/" class="itens"><li class="list-group-item">ANALISTA DE DADOS</li></a>
+                            <a href="https://www.portalgsti.com.br/2017/02/modelagem-de-dados-o-que-e-e-para-que-serve-para-um-dba.html" class="itens"><li class="list-group-item">MODELAGEM</li></a>
+                            <a href="https://www.guiadacarreira.com.br/carreira/o-que-faz-um-biologo/" class="itens"><li class="list-group-item">BIOLOGO</li></a>
+                            <a href="https://www.lfg.com.br/conteudos/concursos/administrativa/o-que-faz-um-analista-ambiental-do-ibama" class="itens"><li class="list-group-item">PROTETOR AMBIENTAL</li></a>
+                            <a href="https://www.maisdados.com.br/o-que-o-profissional-de-ti-faz-entenda-de-uma-vez-por-todas/" class="itens"><li class="list-group-item">TECNICO DE INFORMATICA</li></a>
+                            <a href="https://www.guiadacarreira.com.br/carreira/analise-e-desenvolvimento-de-sistemas/" class="itens"><li class="list-group-item">DESENVOLVEDOR DE SISTEMAS</li></a>
+                        </ul>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--FIM DO CARD-->
+    
+    <!--RODAPÉ-->
+
+    <footer class="bg-dark mt-4">
+        <h1 class="fim text-center">ESPERO QUE TENHA GOSTADO DE CONHECER UM POUCO SOBRE MIM</h1>
+    </footer>
+
+    <!--FIM DO RODAPÉ-->
+</body>
+</html>
